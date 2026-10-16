@@ -73,7 +73,7 @@ const server = http.createServer((req, res) => {
 
     // Return immediately; the fetch continues independently.
     res.writeHead(200);
-    res.end(JSON.stringify({ status: "fetch" }));
+    res.end(JSON.stringify({ status: "fetch hai bro" }));
 
     setImmediate(async () => {
       try {
